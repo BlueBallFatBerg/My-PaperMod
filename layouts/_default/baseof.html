@@ -17,10 +17,13 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
-    {{- partialCached "header.html" . .Page -}}
+    {{ partialCached "header.html" . .Page -}}
     <main class="main">
-        {{- block "main" . }}{{ end }}
+        {{ block "main" . }}{{ end }}
     </main>
+    <div class='rightbar-container'>
+		{{ partial "toc_blank" . }}
+	</div>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
 </body>
 
