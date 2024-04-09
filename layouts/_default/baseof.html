@@ -18,6 +18,7 @@
 {{- end -}}
 " id="top">
     {{ partialCached "header.html" . .Page -}}
+    {{ partial "sidebar" }}
     <main class="main">
         {{ block "main" . }}{{ end }}
     </main>

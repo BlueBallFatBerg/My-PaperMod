@@ -72,7 +72,74 @@ pre:hover .copy-code {
     display: block;
 }
 
-/* 右边栏 */
+/* 左侧侧边栏 blank */
+.sidebar {
+	position: fixed;
+	top: 40px;
+
+	height: 90%;
+	width: 25%;
+
+
+	text-align: right;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebar-title {
+	padding-right: 40px;
+}
+
+.sidebar-title > a {
+	font-family: 'Bungee Shade';
+	font-weight: 600;
+	font-size: 2rem;
+}
+
+.sidebar-items {
+	display: flex;
+	flex-direction: column;
+	padding-top: 25px;
+
+	font-size: 1.2rem;
+	line-height: 2.7rem;
+}
+
+.sidebar-item {
+	white-space: nowrap;
+	padding-right: 40px;
+}
+
+.sidebar-item:hover{
+	background: linear-gradient(to left, #f1f1f1, white);
+	background-position: right;
+}
+
+.sidebar-icon {
+	margin-right: 50px;
+}
+
+.dropdown-items {
+	display: none;
+}
+
+.sidebar-footer{
+	position: absolute;
+	right: 0;
+	bottom: 40px;
+	padding-right: 40px;
+	font-size: 0.8rem;
+}
+
+.en_name,
+.zh_name {
+	width: 75px;
+	display: inline-block;
+	text-align: center;
+}
+
+/* 右侧侧边栏 blank */
 .rightbar-container {
 	position: fixed;
 	top: 40px;
