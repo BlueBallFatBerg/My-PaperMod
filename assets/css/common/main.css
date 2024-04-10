@@ -1,4 +1,7 @@
-@import "../fonts";
+@font-face {
+    font-family: "Latin Modern Mono";
+    src: url('../../../static/fonts/lmmono-normal.woff') format('woff');
+}
 
 .main {
     position: relative;
@@ -7,7 +10,6 @@
     margin: auto;
     padding: var(--gap);
     font-family: "Latin Modern Mono", "Times New Roman", serif;
-    /* font-family: "KaiTi", "楷体", serif; */
 }
 
 .page-header h1 {
@@ -45,7 +47,7 @@
 /* 代码块 */
 code {
     direction: ltr;
-    font-family: Andale Mono;
+    font-family: Andale Mono, monospace;
 }
 
 div.highlight,
@@ -92,7 +94,7 @@ pre:hover .copy-code {
 }
 
 .sidebar-title > a {
-	font-family: 'Bungee Shade';
+	font-family: "Latin Modern Mono", "Times New Roman", serif;
 	font-weight: 600;
 	font-size: 2rem;
 }
@@ -161,7 +163,7 @@ pre:hover .copy-code {
 	box-sizing: border-box;
 	border-radius: 7px;
 	background-color: #f2f2f2;
-    font-family: "KaiTi", "楷体", serif;
+    font-family: "Latin Modern Mono", "Times New Roman", serif;
 }
 
 
