@@ -1,7 +1,5 @@
-@font-face {
-    font-family: "Latin Modern Mono";
-    src: url('../../../static/fonts/lmmono-normal.woff') format('woff');
-}
+
+@import "../common/fonts.css";
 
 .main {
     position: relative;
@@ -10,6 +8,7 @@
     margin: auto;
     padding: var(--gap);
     font-family: "Latin Modern Mono", "Times New Roman", serif;
+	/* font-family: "test"; */
 }
 
 .page-header h1 {
