@@ -1,5 +1,5 @@
 
-@import "../common/fonts.css";
+@import "fonts";
 
 .main {
     position: relative;
@@ -7,8 +7,7 @@
     max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
     padding: var(--gap);
-    font-family: "Latin Modern Mono", "Times New Roman", serif;
-	/* font-family: "test"; */
+	font-family: "Latin Modern Roman", "Songti", serif;
 }
 
 .page-header h1 {
@@ -46,7 +45,7 @@
 /* 代码块 */
 code {
     direction: ltr;
-    font-family: Andale Mono, monospace;
+    font-family: "SourceCodePro", monospace;
 }
 
 div.highlight,
@@ -93,7 +92,7 @@ pre:hover .copy-code {
 }
 
 .sidebar-title > a {
-	font-family: "Latin Modern Mono", "Times New Roman", serif;
+	font-family: "Latin Modern Roman", "Songti", serif;
 	font-weight: 600;
 	font-size: 2rem;
 }
@@ -162,7 +161,7 @@ pre:hover .copy-code {
 	box-sizing: border-box;
 	border-radius: 7px;
 	background-color: #f2f2f2;
-    font-family: "Latin Modern Mono", "Times New Roman", serif;
+    font-family: "Latin Modern Roman", “Songti”, serif;
 }
 
 
