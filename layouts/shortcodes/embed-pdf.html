@@ -27,7 +27,6 @@
     display: none;
   }
   
-  
   .pdf-loadingWrapper {
     display: none;
     justify-content: center;
@@ -46,10 +45,6 @@
     animation: spin 1s ease-in-out infinite;
     -webkit-animation: spin 1s ease-in-out infinite;
   }
-  
-  {{/*  Download link  */}}
-  
-  
   
   #overlayText {
     word-wrap: break-word;
@@ -76,15 +71,14 @@
     width:  clamp(1em, 2vw, 1.4em);
   }
   
-  
-  
   @keyframes spin {
     to { -webkit-transform: rotate(360deg); }
   }
   @-webkit-keyframes spin {
     to { -webkit-transform: rotate(360deg); }
   }
-  </style>
+</style>
+
 {{- end -}}
 
 {{- $.Page.Scratch.Add "embed-pdf-count" 1 -}}

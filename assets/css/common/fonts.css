@@ -54,7 +54,7 @@
     font-family: 'Songti';
     font-style: normal;
     font-weight: bold;
-    src: url('../../fonts/Songti_SC_Bold.ttf');
+    src: url('../../fonts/Songti_SC_Bold.woff2');
 }
 
 @font-face {
@@ -62,7 +62,7 @@
     font-family: 'Songti';
     font-style: normal;
     font-weight: normal;
-    src: url('../../fonts/Songti_SC_Regular.ttf');
+    src: url('../../fonts/Songti_SC_Regular.woff2');
 }
 
 /* @font-face {
