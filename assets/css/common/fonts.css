@@ -41,13 +41,13 @@
 }
 
 /* Songti */
-/* @font-face {
+@font-face {
     font-display: swap;
     font-family: 'Songti';
     font-style: normal;
     font-weight: bolder;
     src: url('../../fonts/Songti_SC_Black.ttf');
-} */
+}
 
 @font-face {
     font-display: swap;
@@ -65,11 +65,35 @@
     src: url('../../fonts/Songti_SC_Regular.woff2');
 }
 
-/* @font-face {
+@font-face {
     font-display: swap;
     font-family: 'Songti';
     font-style: normal;
     font-weight: lighter;
-    src: url('../../fonts/Songti_SC_Light.ttf');
+    src: url('../../fonts/Songti_SC_Light.woff2');
+}
+
+/* @font-face {
+    font-display: swap;
+    font-family: 'Songti';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../fonts/SongtiSCNerdFont-Bold.ttf');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Songti';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/SongtiSCNerdFont-Regular.ttf');
+} */
+
+/* @font-face {
+    font-display: swap;
+    font-family: 'IosevkaNertFont';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/Iosevka-Nerd-Font-Complete.woff2');
 } */
 

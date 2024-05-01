@@ -5,7 +5,7 @@ var text = fs.readFileSync('./words', 'utf8')
 var Fontmin = require('fontmin');
 
 var fontmin = new Fontmin()
-	.src(['./raw_fonts/Songti*.ttf'])
+	.src(['./fonts_to_process/Songti*.ttf'])
 	.dest('../../fonts')
 	.use(Fontmin.glyph({
 		text: text,
