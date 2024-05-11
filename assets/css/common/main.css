@@ -8,7 +8,6 @@
     margin: auto;
     padding: var(--gap);
 	font-family: "Latin Modern Roman", "Songti", serif;
-	/* font-family: "Latin Modern Roman", "Songti", "IosevkaNertFont", serif; */
 }
 
 .page-header h1 {

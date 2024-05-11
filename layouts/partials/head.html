@@ -8,7 +8,9 @@
 {{- end }}
 
 {{- /* Title */}}
-<title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
+<title>
+    {{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}
+</title>
 
 {{- /* Meta */}}
 {{- if .IsHome }}
@@ -37,6 +39,7 @@
 {{- end }}
 
 {{- /* Styles */}}
+<link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css">
 
 {{- /* includes */}}
 {{- $includes := slice }}
@@ -153,7 +156,5 @@
 {{- /* Misc */}}
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
 {{- template "_internal/google_analytics.html" . }}
-{{- template "partials/templates/opengraph.html" . }}
-{{- template "partials/templates/twitter_cards.html" . }}
 {{- template "partials/templates/schema_json.html" . }}
 {{- end -}}

@@ -1,3 +1,5 @@
+@import "fonts";
+
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -10,6 +12,7 @@
 
 .nav a {
     display: block;
+    font-family: "Latin Modern Roman", "Songti", serif;
 }
 
 .logo,
@@ -55,6 +58,7 @@ body:not(.dark) #sun {
     word-break: keep-all;
     overflow-x: auto;
     white-space: nowrap;
+    font-family: "Latin Modern Roman", "Songti", serif;
 }
 
 #menu li + li {

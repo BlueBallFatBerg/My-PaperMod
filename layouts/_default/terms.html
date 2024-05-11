@@ -2,7 +2,14 @@
 
 {{- if .Title }}
 <header class="page-header">
-    <h1>{{ .Title }}</h1>
+    <h1>
+        {{ .Title }}
+        {{- if eq .Title "Tags"  }}
+            <i class="nf nf-md-tag"></i>
+        {{- else if eq .Title "Categories" }}
+            <i class="nf nf-md-cat"></i>
+        {{- end }}
+    </h1>
     {{- if .Description }}
     <div class="post-description">
         {{ .Description }}

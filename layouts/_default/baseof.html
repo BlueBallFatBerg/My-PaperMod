@@ -1,13 +1,8 @@
-{{- if lt hugo.Version "0.112.4" }}
-{{- errorf "=> hugo v0.112.4 or greater is required for hugo-PaperMod to build " }}
-{{- end -}}
-
 <!DOCTYPE html>
 <html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
 <head>
-    <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css">
-    {{- partial "head.html" . }}
+    {{ partial "head.html" . }}
 </head>
 
 <body class="
@@ -20,12 +15,12 @@
 " id="top">
     {{ partialCached "header.html" . .Page -}}
     <!-- {{ partial "sidebar" }} -->
-    <main class="main">
+    <main class="main"> 
         {{ block "main" . }}{{ end }}
     </main>
-    <div class='rightbar-container'>
+    <!-- <div class='rightbar-container'>
 		{{ partial "toc_blank" . }}
-	</div>
+	</div> -->
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
 </body>
 
